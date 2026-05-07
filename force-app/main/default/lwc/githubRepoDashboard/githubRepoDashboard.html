@@ -1,0 +1,62 @@
+<template>
+    <lightning-card title="GitHub Repository Dashboard" icon-name="utility:connected_apps">
+
+        <div class="slds-p-around_medium">
+
+            <div class="slds-grid slds-gutters">
+
+                <div class="slds-col">
+                    <lightning-input
+                        label="GitHub Username"
+                        value={username}
+                        placeholder="Enter Any Username"
+                        onchange={handleUsernameChange}
+                    >
+                    </lightning-input>
+                </div>
+
+                <div class="slds-col slds-align-bottom">
+                    <lightning-button
+                        label="Fetch Repositories"
+                        variant="brand"
+                        onclick={fetchRepositories}
+                    >
+                    </lightning-button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <template if:true={isLoading}>
+            <lightning-spinner
+                alternative-text="Loading"
+                size="medium">
+            </lightning-spinner>
+        </template>
+
+        <template if:true={repositories}>
+
+            <div class="slds-p-around_medium">
+
+                <lightning-datatable
+                    key-field="id"
+                    data={repositories}
+                    columns={columns}
+                    hide-checkbox-column>
+                </lightning-datatable>
+
+            </div>
+
+        </template>
+
+        <template if:true={error}>
+
+            <div class="slds-p-around_medium slds-text-color_error">
+                {error}
+            </div>
+
+        </template>
+
+    </lightning-card>
+</template>
