@@ -2,6 +2,268 @@
 
 A Salesforce-based integration platform demonstrating secure, scalable, and reusable API integrations using Apex, LWC, Named Credentials, and External Credentials.
 
+![Project Preview](assets/IntegrationHubOverview.png)
+
+1. Salesforce + External System Integration Hub
+Skill Level: Strong Intermediate → Advanced
+
+Build a mini middleware system inside Salesforce.
+
+Features
+Connect Salesforce with:
+GitHub API
+Slack API
+Stripe API
+Google Sheets API
+Use:
+Named Credentials
+OAuth 2.0
+Queueables
+Platform Events
+Retry Mechanism
+Error Logging Framework
+What you'll learn
+Real-world integration architecture
+Async processing
+Error handling
+Authentication flows
+Bulk-safe integrations
+Bonus
+
+Build a reusable integration framework:
+
+IntegrationService.send(request);
+
+That alone becomes portfolio-worthy.
+
+2. Mini CRM using LWC + Apex + Dynamic UI
+Skill Level: Intermediate
+
+Don’t use standard UI.
+
+Build your own:
+
+Account management
+Contact timeline
+Opportunity Kanban
+Notes/comments
+Activity tracking
+Use
+Advanced LWC
+Parent-child communication
+LMS (Lightning Message Service)
+Dynamic SOQL
+Caching
+Pagination
+Debouncing
+Bonus
+
+Add:
+
+dark mode
+reusable datatable
+inline editing
+dynamic filters
+
+You’ll become MUCH stronger in frontend architecture.
+
+3. Salesforce CI/CD DevOps Pipeline
+Skill Level: Advanced
+
+This one is GOLD for career growth.
+
+Build
+
+Complete pipeline using:
+
+GitHub Actions
+SFDX
+Scratch orgs
+PMD code scan
+Apex test automation
+Deployment validation
+Delta deployment
+Extra points
+
+Add:
+
+automatic package generation
+branch strategy
+unlocked packages
+Why this matters
+
+Very few devs truly understand DevOps in Salesforce.
+
+This can push you toward:
+
+Senior Dev
+Tech Lead
+Architect path
+4. Generic Apex Framework
+Skill Level: Advanced
+
+Build your own:
+
+Trigger framework
+Selector layer
+Service layer
+Unit of Work pattern
+Domain layer
+
+Inspired by:
+
+fflib
+Apex Enterprise Patterns
+Goal
+
+Write code like:
+
+AccountService.createAccounts(data);
+
+instead of fat triggers.
+
+You’ll master
+clean architecture
+dependency injection
+testability
+enterprise coding style
+
+This project upgrades your engineering maturity massively.
+
+5. AI + Salesforce Project (Very Valuable in 2026)
+Skill Level: High Value
+
+This is where the market is going.
+
+Build
+
+An AI-powered Salesforce assistant.
+
+Examples:
+
+summarize Cases using AI
+generate email replies
+opportunity health analysis
+lead scoring
+chatbot for records
+Tech Stack
+OpenAI API
+Apex callouts
+LWC chat UI
+Streaming responses
+Vector search (optional)
+Massive learning
+prompt engineering
+AI integration patterns
+governor-limit-aware AI design
+
+This is résumé rocket fuel right now.
+
+6. Real-Time Notification System
+Skill Level: Intermediate+
+
+Build:
+
+live notification center
+toast notifications
+real-time updates
+Use
+Platform Events
+EMP API
+CDC (Change Data Capture)
+Streaming API
+Why it’s good
+
+Most Salesforce devs never touch real-time architecture.
+
+This gives you an edge.
+
+7. Multi-Tenant Metadata Driven App
+Skill Level: Architect Mindset
+
+This project changes how you think.
+
+Build
+
+A configurable application using:
+
+Custom Metadata Types
+Dynamic Forms
+Dynamic SOQL
+Schema methods
+
+Example:
+Admin defines fields/config → app renders dynamically.
+
+You’ll learn
+metadata-driven architecture
+scalable design
+low-code extensibility
+
+This is architect-level thinking.
+
+8. Salesforce Performance Optimization Lab
+Skill Level: Expert Mode
+
+Create intentionally bad code.
+
+Then optimize it.
+
+Practice
+query optimization
+selective SOQL
+indexing
+CPU reduction
+heap optimization
+async redesign
+caching
+Add metrics dashboard
+
+Track:
+
+execution time
+SOQL count
+heap size
+
+This develops elite debugging skills.
+
+9. AppExchange-Style Product
+Skill Level: Career-Changing
+
+Build a reusable managed-package-style app.
+
+Ideas:
+
+Approval Matrix Engine
+Dynamic Email Builder
+Reusable Audit Trail System
+Generic Scheduler
+Document Generation System
+Learn
+packaging
+namespace handling
+upgrade-safe architecture
+subscriber org considerations
+
+This separates “developer” from “product engineer”.
+
+10. Salesforce + Mobile Experience
+Skill Level: Unique Skillset
+
+Build:
+
+Field Service style app
+Offline capability
+QR scanning
+Geolocation tracking
+Use
+Mobile SDK
+LWC mobile optimization
+Offline storage
+Camera APIs
+
+Very underrated area.
+
 ---
 
 # 📌 Project Overview
