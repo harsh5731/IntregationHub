@@ -34,9 +34,9 @@ export default class GithubRepoDashboard extends LightningElement {
             }
         },
         {
-            label: 'Private',
-            fieldName: 'isPrivate',
-            type: 'boolean'
+            label: 'Visibility',
+            fieldName: 'visibility',
+            type: 'text'
         }
     ];
 
