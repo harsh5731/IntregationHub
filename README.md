@@ -2,7 +2,7 @@
 
 A Salesforce-based integration platform demonstrating secure, scalable, and reusable API integrations using Apex, LWC, Named Credentials, and External Credentials.
 
-![Project Preview](assets/IntegrationHubOverview.png)
+![Overview](assets/IntregationHubOverview.png)
 
 1. Salesforce + External System Integration Hub
 Skill Level: Strong Intermediate → Advanced
