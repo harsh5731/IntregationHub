@@ -4,6 +4,10 @@
         <enabled>true</enabled>
         <externalCredentialPrincipal>GitHubNoAuth-GitHubPrincipal</externalCredentialPrincipal>
     </externalCredentialPrincipalAccesses>
+    <externalCredentialPrincipalAccesses>
+        <enabled>true</enabled>
+        <externalCredentialPrincipal>GitHubPAT-Named Principal</externalCredentialPrincipal>
+    </externalCredentialPrincipalAccesses>
     <hasActivationRequired>false</hasActivationRequired>
     <label>IntegrationHubPermissions</label>
 </PermissionSet>
